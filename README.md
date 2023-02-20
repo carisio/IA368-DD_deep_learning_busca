@@ -1,5 +1,5 @@
 # Relatório - Building a Simple Information Retrieval System using BM25 and GPT-3 and evaluated in the CISI collection
-*Leandro Carísio Fernandes, 17/2/2023*
+*Leandro Carísio Fernandes, 20/2/2023*
 
 Nesse exercício foi solicitada a construção de um sistema de recuperação de informação usando o algoritmo BM25. Os resultados devem ser avaliados na base de dados [CISI](http://ir.dcs.gla.ac.uk/resources/test_collections/cisi/) e o uso do ChatGPT é permitido e encorajado.
 
