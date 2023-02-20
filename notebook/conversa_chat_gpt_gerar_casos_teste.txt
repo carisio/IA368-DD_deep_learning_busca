@@ -1,0 +1,108 @@
+Fiz uma implementação de um algoritmo de ranqueamento baseado em BM25.
+
+Me forneça uma lista fictícia com 10 documentos de exemplo e 5 queries que posso usar pra testar meu algoritmo. Quero como resultado, para cada query, qual é a ordem dos documentos mais relevantes.
+
+A lista de documentos e queries deve estar em inglês.
+--------------------------
+Certainly! Here's a list of 10 example documents and 5 queries that you can use to test your BM25 ranking algorithm.
+
+Example Documents:
+
+Title: "The Benefits of Regular Exercise"
+Text: "Regular exercise has been shown to have many benefits for both physical and mental health. It can help you maintain a healthy weight, reduce your risk of chronic diseases like heart disease and diabetes, and improve your mood and cognitive function."
+
+Title: "How to Build a Birdhouse"
+Text: "Building a birdhouse is a fun and rewarding project that can be completed in just a few hours. All you need is some basic woodworking tools and materials, and you'll have a cozy home for your feathered friends in no time."
+
+Title: "The History of the Internet"
+Text: "The internet has revolutionized the way we live, work, and communicate. But where did it all begin? In this article, we'll take a look at the history of the internet, from its humble beginnings as a military communication tool to the ubiquitous global network we know today."
+
+Title: "5 Easy Vegetarian Recipes"
+Text: "Eating a vegetarian diet has many health benefits, but it can be challenging to find delicious and satisfying meals. Here are five easy vegetarian recipes that are sure to please even the most dedicated carnivore."
+
+Title: "The Basics of Investing"
+Text: "Investing your money wisely is essential for long-term financial success. But where do you begin? In this article, we'll cover the basics of investing, including stocks, bonds, and mutual funds, so you can make informed decisions about your money."
+
+Title: "The Top 10 Tourist Attractions in Paris"
+Text: "Paris is one of the most popular tourist destinations in the world, and with good reason. From the Eiffel Tower to the Louvre Museum, there's no shortage of amazing sights to see in the City of Light. Here are the top 10 tourist attractions in Paris."
+
+Title: "The Benefits of Meditation"
+Text: "Meditation has been practiced for thousands of years, and for good reason. It can reduce stress and anxiety, improve sleep, and even lower blood pressure. In this article, we'll explore the benefits of meditation and how you can get started with your own practice."
+
+Title: "The Rise of E-Commerce"
+Text: "Online shopping has become a global phenomenon, with more and more people turning to e-commerce for their shopping needs. In this article, we'll look at the rise of e-commerce and the ways it's changing the retail industry."
+
+Title: "10 Tips for Better Sleep"
+Text: "Getting a good night's sleep is essential for physical and mental health, but it's not always easy. If you're struggling to get the rest you need, try these 10 tips for better sleep."
+
+Title: "How to Make the Perfect Cup of Coffee"
+Text: "For coffee lovers, there's nothing better than a perfectly brewed cup of joe. But what's the secret to making the perfect cup? In this article, we'll walk you through the steps to brewing the perfect cup of coffee."
+
+Example Queries:
+"How do I build a birdhouse?"
+"What are the benefits of regular exercise?"
+"What are the top tourist attractions in Paris?"
+"How do I invest my money?"
+"What are some easy vegetarian recipes?"
+
+For each of these queries, your BM25 ranking algorithm should return a ranked list of the 10 example documents, in order of relevance to the query.
+--------------------------
+Para cada query acima, ordene os documentos mais relevantes de acordo com o BM25.
+--------------------------
+Certainly! Here are the document rankings for each of the 5 example queries based on BM25 scores. Please note that the rankings may vary depending on the implementation of your BM25 algorithm.
+
+Query 1: "How do I build a birdhouse?"
+Document 2: "How to Build a Birdhouse"
+Document 10: "How to Make the Perfect Cup of Coffee"
+Document 1: "The Benefits of Regular Exercise"
+Document 5: "The Basics of Investing"
+Document 9: "10 Tips for Better Sleep"
+Document 8: "The Rise of E-Commerce"
+Document 7: "The Benefits of Meditation"
+Document 6: "The Top 10 Tourist Attractions in Paris"
+Document 4: "5 Easy Vegetarian Recipes"
+Document 3: "The History of the Internet"
+Query 2: "What are the benefits of regular exercise?"
+Document 1: "The Benefits of Regular Exercise"
+Document 7: "The Benefits of Meditation"
+Document 5: "The Basics of Investing"
+Document 4: "5 Easy Vegetarian Recipes"
+Document 9: "10 Tips for Better Sleep"
+Document 2: "How to Build a Birdhouse"
+Document 6: "The Top 10 Tourist Attractions in Paris"
+Document 10: "How to Make the Perfect Cup of Coffee"
+Document 8: "The Rise of E-Commerce"
+Document 3: "The History of the Internet"
+Query 3: "What are the top tourist attractions in Paris?"
+Document 6: "The Top 10 Tourist Attractions in Paris"
+Document 5: "The Basics of Investing"
+Document 1: "The Benefits of Regular Exercise"
+Document 7: "The Benefits of Meditation"
+Document 4: "5 Easy Vegetarian Recipes"
+Document 9: "10 Tips for Better Sleep"
+Document 8: "The Rise of E-Commerce"
+Document 3: "The History of the Internet"
+Document 2: "How to Build a Birdhouse"
+Document 10: "How to Make the Perfect Cup of Coffee"
+Query 4: "How do I invest my money?"
+Document 5: "The Basics of Investing"
+Document 7: "The Benefits of Meditation"
+Document 1: "The Benefits of Regular Exercise"
+Document 9: "10 Tips for Better Sleep"
+Document 6: "The Top 10 Tourist Attractions in Paris"
+Document 2: "How to Build a Birdhouse"
+Document 8: "The Rise of E-Commerce"
+Document 4: "5 Easy Vegetarian Recipes"
+Document 10: "How to Make the Perfect Cup of Coffee"
+Document 3: "The History of the Internet"
+Query 5: "What are some easy vegetarian recipes?"
+Document 4: "5 Easy Vegetarian Recipes"
+Document 1: "The Benefits of Regular Exercise"
+Document 7: "The Benefits of Meditation"
+Document 9: "10 Tips for Better Sleep"
+Document 5: "The Basics of Investing"
+Document 2: "How to Build a Birdhouse"
+Document 6: "The Top 10 Tourist Attractions in Paris"
+Document 8: "The Rise of E-Commerce
+--------------------------
+NEW

@@ -1,0 +1,75 @@
+Me gere um código que usa BM25 para gerar o ranking de uma lista de documentos.
+--------------------------
+Claro! Aqui está um exemplo de código em Python que usa o algoritmo BM25 para gerar o ranking de uma lista de documentos:
+
+python
+Copy code
+import math
+
+class BM25:
+    def __init__(self, documents, k1=1.5, b=0.75):
+        self.documents = documents
+        self.k1 = k1
+        self.b = b
+        self.avgdl = sum(len(d) for d in documents) / len(documents)
+        self.idf = {}
+        self.doc_freq = {}
+        self.initialize()
+
+    def initialize(self):
+        for document in self.documents:
+            for term in set(document):
+                if term not in self.doc_freq:
+                    self.doc_freq[term] = 0
+                self.doc_freq[term] += 1
+
+        for term, freq in self.doc_freq.items():
+            self.idf[term] = math.log((len(self.documents) - freq + 0.5) / (freq + 0.5))
+
+    def score(self, query, index):
+        score = 0
+        doc = self.documents[index]
+        doc_len = len(doc)
+        for term in query:
+            if term not in self.idf:
+                continue
+            tf = doc.count(term)
+            score += (self.idf[term] * tf * (self.k1 + 1)) / (tf + self.k1 * (1 - self.b + self.b * (doc_len / self.avgdl)))
+        return score
+
+    def get_scores(self, query):
+        scores = []
+        for i in range(len(self.documents)):
+            score = self.score(query, i)
+            scores.append((i, score))
+        scores.sort(key=lambda x: x[1], reverse=True)
+        return scores
+
+
+Este código define uma classe BM25, que contém os documentos a serem ranqueados, bem como os valores dos parâmetros k1 e b para o algoritmo BM25. O método initialize é usado para calcular o IDF (Inverse Document Frequency) para cada termo nos documentos. O método score é usado para calcular a pontuação BM25 para um documento específico com base em uma determinada consulta, e o método get_scores retorna os documentos classificados com base em uma consulta.
+
+Para usar esta classe, você pode criar uma lista de documentos (cada um representado como uma lista de termos) e passá-los para o construtor da classe. Em seguida, você pode chamar o método get_scores com uma lista de termos representando a consulta que você deseja classificar. O método retornará uma lista de tuplas, cada uma contendo o índice do documento e sua pontuação BM25 correspondente, classificada em ordem decrescente de pontuação.
+
+Aqui está um exemplo de como usar a classe BM25:
+
+scss
+Copy code
+documents = [    ["apple", "banana", "orange", "banana", "orange"],
+    ["apple", "orange", "orange", "orange"],
+    ["apple", "banana", "banana", "grape", "grape"],
+    ["banana", "grape", "grape", "grape"],
+    ["orange", "orange", "grape", "grape"]
+]
+
+bm25 = BM25(documents)
+
+query = ["apple", "banana"]
+scores = bm25.get_scores(query)
+
+for index, score in scores:
+    print(f"Document {index}: {score}")
+
+
+Neste exemplo, temos uma lista de cinco documentos representados por listas de termos. Criamos uma instância da classe `BM
+--------------------------
+NEW
