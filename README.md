@@ -255,9 +255,11 @@ De acordo com o arquivo cisi.rel, essa query tem os seguintes documentos relevan
 
 Para avaliar os resultados em toda a base CISI, vamos considerar a métrica [_precision at 10_ (P@10)](https://en.wikipedia.org/wiki/Evaluation_measures_(information_retrieval)), que corresponde ao número de resultados relevantes nas 10 primeiras posições. Para facilitar a visualização, vamos considerar esse valor em termos percentuais. Assim, se 7 documentos relevantes forem encontrados nas primeiras 10 posições (P@10 = 7), podemos calcular P@10 (%) como 7/10 = 70%.
 
-Considerando que essa base é muito pequena e que há casos (como a query 111 acima) em que não há 10 documentos relevantes, o denominador do P@10 (%) será adaptado para considerar essa situação, ou seja, P@10 (%) = número de documentos relevantes encontrados nas primeiras 10 posições do ranking dividido pelo mínimo entre 10 e número de documentos relevantes para a query.
+Uma questão importante aqui é que essa base é muito pequena e há casos (como a query 111) em que não há 10 documentos relevantes. Suponha um exemplo em que há apenas 5 documentos relevantes e que query traga todos esses documentos nas 10 primeiras posições. Enquanto o numerador da métrica sempre ficará limitado pela quantidade máxima de documentos relevante (5), o denominador é fixo (10). Nesse exemplo fictício, mesmo encontrando todos os 5 documentos a métrica P@10 retornaria apenas 50% de precisão. Uma forma de corrigir isso seria alterar o denominador para, em vez de dividir por 10, dividir pelo menor valor entre 10 e a quantidade total de documentos relevantes.
 
-O histograma abaixo mostra o P@10 (%) calculado para todas as queries disponíveis no arquivo cisi.rel. A média é 0.362, o que indica que essa implementação retornou, em média, 3,62 documentos relevantes entre os 10 primeiros.
+Entretanto, para manter a padronização com a métrica, vamos fazer a implementação tradicional dividindo por 10.
+
+O histograma abaixo mostra o P@10 (%) calculado para todas as queries disponíveis no arquivo cisi.rel. A média é 0.356, o que indica que essa implementação retornou, em média, 3,56 documentos relevantes entre os 10 primeiros.
 
 ![image](./notebook/histograma.png)
 
@@ -348,7 +350,7 @@ Ou seja, há uma diferença no argumento do logaritmo neperiano (+1), o que just
 
 Se adicionarmos + 1 a implementação do ChatGPT ou removermos esse +1 da implementação feita aqui, o resultado passa a ser idêntico. Mas, em vez de ajustar essa diferença, vamos calcular o P@10 (%) na CISI collection e comparar os resultados da implementação do ChatGPT com a feita anteriormente:
 
-O histograma abaixo mostra o P@10 (%) calculado para todas as queries disponíveis no arquivo cisi.rel usando a formulação da wikipedia (média 0.362) e a formulação do ChatGPT (média 0.352). Há pouca diferença entre os resultados.
+O histograma abaixo mostra o P@10 (%) calculado para todas as queries disponíveis no arquivo cisi.rel usando a formulação da wikipedia (média 0.356) e a formulação do ChatGPT (média 0.346). Há pouca diferença entre os resultados.
 
 ![image](./notebook/histograma_chat_gpt_implementation.png)
 
