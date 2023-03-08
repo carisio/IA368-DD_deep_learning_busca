@@ -18,8 +18,61 @@ Projeto: (1) Usar o BM25 implementado pelo pyserini para buscar queries no TREC-
 
 - Relatório e implementação: [Jupyter notebook](./1%20-%20bm25%20-%20bow%20-%20tfidf/notebook/Aula1_bm25_bow_tfidf.ipynb) / [Colab](https://colab.research.google.com/drive/1hELJYqsvUyja9HPeDzc9FU8okqdIjODE?usp=sharing)
 
+<br>
+
 ## Aula 2. Classificador binário: Análise de Sentimento e Ranqueamento
 
 Projeto: Reranqueamento usando um modelo estilo-BERT com o treinamento no dataset do MS MARCO e avaliação no TREC-DL 2020
 
 - Relatório e implementação: Jupyter notebook / Colab
+
+<br>
+
+## Aula 3. Aplicar LLM's Zero e Few-shot (aplicação escolhida pelo aluno)
+
+Projeto:
+
+<br>
+
+## Aula 4. Transformer avançado: Implementação e treinamento (modelagem de linguagem)
+
+Projeto:
+
+<br>
+
+## Aula 5. Modelo seq2seq: T5 para expansão de documentos (doc2query)
+
+Projeto:
+
+<br>
+
+## Aula 6. Buscadores Densos: DPR
+
+Projeto:
+
+<br>
+
+## Aula 7. Buscadores Esparsos: SPLADE
+
+Projeto:
+
+<br>
+
+## Aula 8. InPars: Adaptação de modelos para novas tarefas
+
+Projeto:
+
+<br>
+
+## Aula 9. Destilação
+
+Projeto:
+
+<br>
+
+## Aula 10. Multi-document QA: Visconde
+
+Projeto:
+
+<br>
+
