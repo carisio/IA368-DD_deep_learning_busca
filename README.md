@@ -34,7 +34,7 @@ Projeto: Reranqueamento usando um modelo estilo-BERT com o treinamento no datase
 
 - Apresentação da leitura
 
-- Implementação: [Jupyter notebook](./2%20-%20classificador%20binario%20-%20reranking%20com%20minilm/notebook/Aula2_classificador_binario_mini_bert.ipynb) / [Colab](https://colab.research.google.com/drive/1Xcz-h7uHpbuKNZLlOrlIqj8Ao4V3iQos?usp=sharing) / [Apresentação]()
+- Implementação: [Jupyter notebook](./2%20-%20classificador%20binario%20-%20reranking%20com%20minilm/notebook/Aula2_classificador_binario_mini_bert.ipynb) / [Colab](https://colab.research.google.com/drive/1Xcz-h7uHpbuKNZLlOrlIqj8Ao4V3iQos?usp=sharing) / [Apresentação](./2%20-%20classificador%20binario%20-%20reranking%20com%20minilm/notebook/apresentacao_notebook.pdf)
 
 <br>
 
