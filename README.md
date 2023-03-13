@@ -20,7 +20,7 @@ Projeto: (1) Usar o BM25 implementado pelo pyserini para buscar queries no TREC-
 
 Entregas: 
 
-- [Apresentação da leitura](./1%20-%20bm25%20-%20bow%20-%20tfidf/apresentacao/capitulo_1.pdf)
+- [Apresentação da leitura](./1%20-%20bm25%20-%20bow%20-%20tfidf/leitura/capitulo_1.pdf)
 
 - Implementação: [Jupyter notebook](./1%20-%20bm25%20-%20bow%20-%20tfidf/notebook/Aula1_bm25_bow_tfidf.ipynb) / [Colab](https://colab.research.google.com/drive/1hELJYqsvUyja9HPeDzc9FU8okqdIjODE?usp=sharing)
 
@@ -32,7 +32,7 @@ Leitura: Seção 3 (até 3.2.2) do artigo ["Pretrained Transformers for Text Ran
 
 Projeto: Reranqueamento usando um modelo estilo-BERT com o treinamento no dataset do MS MARCO e avaliação no TREC-DL 2020
 
-- Apresentação da leitura
+- [Apresentação da leitura](./2%20-%20classificador%20binario%20-%20reranking%20com%20minilm/leitura/capitulo_3.pdf)
 
 - Implementação: [Jupyter notebook](./2%20-%20classificador%20binario%20-%20reranking%20com%20minilm/notebook/Aula2_classificador_binario_mini_bert.ipynb) / [Colab](https://colab.research.google.com/drive/1Xcz-h7uHpbuKNZLlOrlIqj8Ao4V3iQos?usp=sharing) / [Apresentação](./2%20-%20classificador%20binario%20-%20reranking%20com%20minilm/notebook/apresentacao_notebook.pdf)
 
