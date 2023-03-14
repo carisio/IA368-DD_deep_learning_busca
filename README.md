@@ -42,7 +42,11 @@ Projeto: Reranqueamento usando um modelo estilo-BERT com o treinamento no datase
 
 Leitura: [GPT-3: Language Models are Few-Shot Learners](https://arxiv.org/abs/2005.14165)
 
-Projeto:
+Projeto: (1) Escolher uma tarefa para resolver de maneira zero ou few-shot. (2) É importante ter uma função de avaliação da qualidade das respostas do modelo few-shot. (3) É possível criar um pequeno dataset de teste manualmente. (4) Usar a API do LLAMA ou do ChatGPT (gpt-3.5-turbo).
+
+- [Apresentação da leitura](./3%20-%20few-shot/leitura/language_models_are_few_shot_learners.pdf)
+
+- Implementação: Jupyter notebook. Apresentação
 
 <br>
 
