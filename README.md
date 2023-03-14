@@ -1,4 +1,4 @@
-# Repositório para a disciplina IA368-DD Deep Learning aplicado a sistemas de buscas
+# Repositório para a disciplina IA368-DD: Deep Learning aplicado a sistemas de buscas
 *Leandro Carísio Fernandes*
 
 <br>
