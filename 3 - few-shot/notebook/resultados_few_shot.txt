@@ -1,0 +1,100 @@
+1309	Positiva
+228	Não é possível responder, pois não há resenha apresentada.
+51	Positiva
+1518	Neutra
+563	Positiva
+501	Negativa
+457	Neutra
+285	Positiva
+1508	Neutra
+209	Negativa
+1385	Neutra
+1516	Negativa
+1116	Positiva
+178	Positiva
+1209	Positiva
+864	Positiva
+65	Negativa
+61	Positiva
+191	Positiva
+447	Negativa
+476	Positiva
+1034	Neutra
+1232	Positiva
+54	Negativa (a resenha não fala especificamente sobre o livro "Capitães de Areia", mas sim sobre a história em si e a realidade social que ela retrata)
+1149	Positiva
+407	Positiva
+1466	Positiva
+1330	Positiva
+1436	Positiva
+859	Positiva
+451	Neutra (a resenha não apresenta uma opinião clara sobre o livro, apenas menciona que a pessoa já o leu três vezes e que o personagem Edward Cullen é maravilhoso)
+919	Positiva
+1206	Positiva
+569	Neutra (não é uma resenha, apenas uma data)
+13	Neutra
+1554	Positiva
+326	Neutra
+1429	Neutra (não é uma resenha, mas sim um resumo da trama do livro)
+865	Positiva
+696	Positiva
+318	Negativa
+440	Neutra
+1563	Negativa (a resenha não apresenta uma opinião clara sobre o livro, apenas faz um resumo da trama)
+689	Positiva
+189	Neutra
+778	Positiva
+198	Neutra
+735	Positiva
+704	Neutra
+1236	Negativa
+541	Positiva
+88	Positiva
+1494	Positiva
+940	Neutra
+1098	Positiva
+255	Neutra
+775	Positiva
+161	Positiva
+1130	Positiva
+600	Neutra
+1287	Positiva
+1266	Neutra
+740	Negativa
+1182	Positiva
+393	Negativa
+1442	Positiva
+142	Positiva
+93	Positiva
+1354	Neutra
+466	Negativa (devido aos erros de ortografia e gramática)
+1583	Positiva
+592	Neutra (a resenha não apresenta uma opinião clara sobre o livro)
+163	Neutra
+206	Negativa
+928	Positiva
+1301	Positiva
+747	Neutra
+333	Negativa
+758	Positiva
+727	Positiva
+429	Negativa
+1372	Neutra
+546	Neutra
+1437	Neutra
+1399	Positiva
+1327	Positiva
+146	Negativa
+1247	Negativa (devido à falta de pontuação e erros gramaticais)
+1300	Negativa
+350	Positiva
+1093	Positiva
+1493	Positiva
+334	Negativa
+946	Negativa
+777	Positiva
+552	Neutra
+1310	Não é possível determinar a resposta, pois não há uma resenha para avaliar.
+1409	Negativa
+1140	Positiva
+449	Negativa

@@ -46,7 +46,7 @@ Projeto: (1) Escolher uma tarefa para resolver de maneira zero ou few-shot. (2) 
 
 - [Apresentação da leitura](./3%20-%20few-shot/leitura/language_models_are_few_shot_learners.pdf)
 
-- Implementação: Jupyter notebook. Apresentação
+- Implementação: [Jupyter notebook](./3%20-%20few-shot/notebook/Aula3_llm_zero_few_shot.ipynb) / [Apresentação](./3%20-%20few-shot/notebook/apresentacao_notebook_classificacao_resenhas.pdf)
 
 <br>
 
