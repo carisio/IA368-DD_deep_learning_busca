@@ -54,7 +54,11 @@ Projeto: (1) Escolher uma tarefa para resolver de maneira zero ou few-shot. (2) 
 
 Leitura: [A neural probabilistic language model](https://www.jmlr.org/papers/volume3/bengio03a/bengio03a.pdf) ou [GPT-2](https://d4mucfpksywv.cloudfront.net/better-language-models/language_models_are_unsupervised_multitask_learners.pdf)
 
-Projeto:
+Projeto: Treinar um modelo de linguagem em dados em português e avaliar o modelo usando perplexidade.
+
+- [Apresentação da leitura](./4%20-%20modelo%20linguagem%20em%20pt/leitura/language_models_are_unsupervised_multitask_learners.pdf)
+
+- Implementação: Jupyter notebook / Colab / Apresentação
 
 <br>
 
