@@ -58,7 +58,7 @@ Projeto: Treinar um modelo de linguagem em dados em português e avaliar o model
 
 - [Apresentação da leitura](./4%20-%20modelo%20linguagem%20em%20pt/leitura/language_models_are_unsupervised_multitask_learners.pdf)
 
-- Implementação: Jupyter notebook / [Colab](https://colab.research.google.com/drive/1GETPSW3nxapGHnJKsSQgsCPSnDU4fmnq?usp=sharing) / Apresentação
+- Implementação: [Jupyter notebook](./4%20-%20modelo%20linguagem%20em%20pt/notebook/Aula4_modelo_linguagem_portugues.ipynb) / [Colab](https://colab.research.google.com/drive/1GETPSW3nxapGHnJKsSQgsCPSnDU4fmnq?usp=sharing) / [Apresentação](./4%20-%20modelo%20linguagem%20em%20pt/notebook/apresentacao_notebook_modelo_linguagem_pt.pdf)
 
 <br>
 
