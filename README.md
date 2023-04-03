@@ -64,9 +64,13 @@ Projeto: Treinar um modelo de linguagem em dados em português e avaliar o model
 
 ## Aula 5. Modelo seq2seq: T5 para expansão de documentos (doc2query)
 
-Projeto:
+Projeto: Treinar um modelo seq2seq (a partir do T5-base) na tarefa de expansão de documentos.
 
 <br>
+
+- Apresentação da leitura
+
+- Implementação: Jupyter notebook / [Colab](https://colab.research.google.com/drive/1HAfJOob7U-uw0a8V6mGKv710bsCPytzE?usp=sharing) / Apresentação
 
 ## Aula 6. Buscadores Densos: DPR
 
