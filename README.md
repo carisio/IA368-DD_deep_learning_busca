@@ -70,7 +70,7 @@ Projeto: Treinar um modelo seq2seq (a partir do T5-base) na tarefa de expansão 
 
 - [Apresentação da leitura](./5%20-%20doc2query/leitura/doc2query.pdf)
 
-- Implementação: Jupyter notebook / [Colab](https://colab.research.google.com/drive/1HAfJOob7U-uw0a8V6mGKv710bsCPytzE?usp=sharing) / Apresentação
+- Implementação: Jupyter notebook / [Colab](https://colab.research.google.com/drive/1HAfJOob7U-uw0a8V6mGKv710bsCPytzE?usp=sharing) / [Apresentação](./5%20-%20doc2query/notebook/apresentacao_notebook_doc2query.pdf)
 
 ## Aula 6. Buscadores Densos: DPR
 
