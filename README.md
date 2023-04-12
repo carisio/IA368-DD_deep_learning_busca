@@ -70,7 +70,13 @@ Projeto: Treinar um modelo seq2seq (a partir do T5-base) na tarefa de expansão 
 
 - [Apresentação da leitura](./5%20-%20doc2query/leitura/doc2query.pdf)
 
-- Implementação: Jupyter notebook / [Colab](https://colab.research.google.com/drive/1HAfJOob7U-uw0a8V6mGKv710bsCPytzE?usp=sharing) / [Apresentação](./5%20-%20doc2query/notebook/apresentacao_notebook_doc2query.pdf)
+- Implementação:
+
+  - BM25 sem expansão: [Jupyter notebook](./5%20-%20doc2query/notebook/Aula5_t5_doc2query_parte1_bm25_sem_expans%C3%A3o_de_documentos.ipynb) / [Colab](https://colab.research.google.com/drive/1HAfJOob7U-uw0a8V6mGKv710bsCPytzE?usp=sharing)
+  - Fine-tuning e geração de queries: [Jupyter notebook](./5%20-%20doc2query/notebook/Aula5_t5_doc2query_parte2_fine_tuning.ipynb) / [Colab](https://colab.research.google.com/drive/15IzYQY8Tv_hznmVQcSmnv_sdj311KMgq?usp=sharing)
+  - BM25 com expansão: [Jupyter notebook](./5%20-%20doc2query/notebook/Aula5_t5_doc2query_parte3_bm25_com_expans%C3%A3o_de_documentos.ipynb) / [Colab](https://colab.research.google.com/drive/1gFtEVUm8-dzlxREt8YqDvakhNcRHphoS?usp=sharing)
+  - Teste 1 - BM25 sem os documentos (apenas doc2query): [Jupyter notebook](./5%20-%20doc2query/notebook/Aula5_t5_doc2query_teste1_bm25_apenas_expans%C3%A3o_de_documento.ipynb) / [Colab](https://colab.research.google.com/drive/1sFOUSjWS2h1GFRuuiFG0Gnu8Ukbc8PkP?usp=sharing)
+  - [Apresentação](./5%20-%20doc2query/notebook/apresentacao_notebook_doc2query.pdf)
 
 ## Aula 6. Buscadores Densos: DPR
 
