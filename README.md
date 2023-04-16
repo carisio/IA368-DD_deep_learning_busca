@@ -86,7 +86,7 @@ Projeto: Finetuning de um buscador denso. Treino usando dataset tiny do MS-MARCO
 
 - Apresentação da leitura
 
-- Implementação: [Jupyter notebook](./6%20-%20busca%20densa/notebook/Aula6_dense_retriever.ipynb) / [Colab](https://colab.research.google.com/drive/1fJ9Xx4v8eiF0wrbMBw8tGs5JZhX86Fkz?usp=sharing) / Apresentação
+- Implementação: [Jupyter notebook](./6%20-%20busca%20densa/notebook/Aula6_dense_retriever.ipynb) / [Colab](https://colab.research.google.com/drive/1fJ9Xx4v8eiF0wrbMBw8tGs5JZhX86Fkz?usp=sharing) / [Apresentação](./6%20-%20busca%20densa/notebook/apresentacao_notebook_dense_retriever.pdf)
 
 ## Aula 7. Buscadores Esparsos: SPLADE
 
