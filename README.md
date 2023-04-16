@@ -80,9 +80,13 @@ Projeto: Treinar um modelo seq2seq (a partir do T5-base) na tarefa de expansão 
 
 ## Aula 6. Buscadores Densos: DPR
 
-Projeto:
+Projeto: Finetuning de um buscador denso. Treino usando dataset tiny do MS-MARCO e avaliação no TREC-COVID. Comparar resultados com busca exaustiva e aproximada.
 
 <br>
+
+- Apresentação da leitura
+
+- Implementação: [Jupyter notebook](./6%20-%20busca%20densa/notebook/Aula6_dense_retriever.ipynb) / [Colab](https://colab.research.google.com/drive/1fJ9Xx4v8eiF0wrbMBw8tGs5JZhX86Fkz?usp=sharing) / Apresentação
 
 ## Aula 7. Buscadores Esparsos: SPLADE
 
