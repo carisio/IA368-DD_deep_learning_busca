@@ -84,7 +84,7 @@ Projeto: Finetuning de um buscador denso. Treino usando dataset tiny do MS-MARCO
 
 <br>
 
-- Apresentação da leitura
+- [Apresentação da leitura](./6%20-%20busca%20densa/leitura/dpr.pdf)
 
 - Implementação: 
 
