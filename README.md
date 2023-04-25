@@ -94,9 +94,13 @@ Projeto: Finetuning de um buscador denso. Treino usando dataset tiny do MS-MARCO
 
 ## Aula 7. Buscadores Esparsos: SPLADE
 
-Projeto:
+Projeto: Implementar a fase de indexação e buscas de um modelo esparso.
 
 <br>
+
+- [Apresentação da leitura](./7%20-%20splade/leitura/splade.pdf)
+
+- Implementação: [Colab](https://colab.research.google.com/drive/1tMSYSw6gT90ua6mOqYI4t2gKWUAlqG8P?usp=sharing) / [Jupyter notebook](./7%20-%20splade/notebook/Aula7_SPLADE_refatorado.ipynb) / [Apresentação](/7%20-%20splade/notebook/apresentacao_splade.pdf)
 
 ## Aula 8. InPars: Adaptação de modelos para novas tarefas
 
