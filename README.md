@@ -104,9 +104,19 @@ Projeto: Implementar a fase de indexação e buscas de um modelo esparso.
 
 ## Aula 8. InPars: Adaptação de modelos para novas tarefas
 
-Projeto:
+Projeto: Gerar dataset para treino de modelos de buscas usando a técnica do InPars e avaliar um modelo reranqueador treinado neste dataset no TREC-COVID.
+
+A ideia é usar um LLM como gerador de queries para documentos do TREC-COVID. A partir daí, gerar exemplos negativos usando o BM25 e treinar um reranqueador para o TREC-COVID.
 
 <br>
+
+- [Apresentação da leitura](./8%20-%20inpars/leitura/inpars.pdf)
+
+- Implementação
+
+  - Caderno 1 - geração de query a partir de documentos usando gpt-3.5-turbo: [Jupyter notebook](./8%20-%20inpars/notebook/Aula_8_geracao_queries.ipynb)
+  - Caderno 2 - geração de documentos não relevantes para as queries geradas usando BM25: [Colab](https://colab.research.google.com/drive/1tbKKunyvzI0hcl1_vW7iIeKvS35QfRnn?usp=sharing) / [Jupyter notebook](./8%20-%20inpars/notebook/Aula8_parte2_geracao_doc_id_negativo.ipynb)
+  - Caderno 3 - fine-tuning e testes na base TREC-COVID: [Colab]() / [Jupyter notebook]()
 
 ## Aula 9. Destilação
 
