@@ -151,6 +151,8 @@ Dicas:
 
 - [Apresentação da leitura](./9%20-%20qualidade%20vs%20eficiencia/leitura/colbert_v2.pdf)
 
+- Implementação: [Colab](https://colab.research.google.com/drive/1Tvf3fithfbWWqdaU-SSbj2GDQXbhPVk8?usp=sharing) / [Jupyter notebook](./9%20-%20qualidade%20vs%20eficiencia/notebook/Aula9_qualidade_vs_eficiencia.ipynb) / [Apresentação](./9%20-%20qualidade%20vs%20eficiencia/notebook/apresentacao_qualidade_eficiencia.pdf)
+
 ## Aula 10. Multi-document QA: Visconde
 
 Projeto:
