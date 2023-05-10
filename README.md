@@ -123,7 +123,33 @@ A ideia é usar um LLM como gerador de queries para documentos do TREC-COVID. A 
 
 Projeto:
 
+O objetivo do exercício desta semana é construir alguns pipelines de busca e analisá-los em termos das seguintes métricas:
+
+- Qualidade dos resultados: nDCG@10
+- Latência (seg/query)
+- USD por query assumindo utilização "perfeita": assim que terminou de processar uma query, já tem outra para ser processada
+- USD/mês para deixar o sistema rodando para poucos usuários (ex: 100 queries/dia)
+- Custo de indexação em USD
+
+Iremos avaliar os pipelines no TREC-COVID.
+
+A latência precisa ser menor que 2 segundos por query.
+
+Considerar:
+
+- 1,50 USD/hora por A100 ou 0,21 USD/hora por T4 ou 0,50 USD/hora por V100
+- 0,03 USD/hora por CPU core
+- 0,005 USD/hora por GB de CPU RAM
+
+
+Dicas:
+- Utilizar modelos de busca "SOTA" já treinados no MS MARCO como parte do pipeline, como o [SPLADE distil](https://huggingface.co/naver/splade-cocondenser-selfdistil) (esparso), [contriever](https://huggingface.co/facebook/contriever-msmarco) (denso), [Colbert-v2](https://github.com/stanford-futuredata/ColBERT) (denso), [miniLM](https://huggingface.co/cross-encoder/ms-marco-MiniLM-L-6-v2) (reranker), [monoT5-3B](https://huggingface.co/castorini/monot5-3b-msmarco) (reranker), [doc2query minus-minus](https://github.com/terrierteam/pyterrier_doc2query) (expansão de documentos + filtragem com reranqueador na etapa de indexação)
+- Variar parametros como número de documentos retornados em cada estagio. Por exemplo, BM25 retorna 1000 documentos, um modelo denso ou esparso pode reranquea-los, e passar os top 50 para o miniLM/monoT5 fazer um ranqueamento final.
+
+
 <br>
+
+- [Apresentação da leitura](./9%20-%20qualidade%20vs%20eficiencia/leitura/colbert_v2.pdf)
 
 ## Aula 10. Multi-document QA: Visconde
 
