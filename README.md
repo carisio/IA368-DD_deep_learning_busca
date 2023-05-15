@@ -66,8 +66,6 @@ Projeto: Treinar um modelo de linguagem em dados em português e avaliar o model
 
 Projeto: Treinar um modelo seq2seq (a partir do T5-base) na tarefa de expansão de documentos.
 
-<br>
-
 - [Apresentação da leitura](./5%20-%20doc2query/leitura/doc2query.pdf)
 
 - Implementação:
@@ -78,11 +76,11 @@ Projeto: Treinar um modelo seq2seq (a partir do T5-base) na tarefa de expansão 
   - Teste 1 - BM25 sem os documentos (apenas doc2query): [Jupyter notebook](./5%20-%20doc2query/notebook/Aula5_t5_doc2query_teste1_bm25_apenas_expans%C3%A3o_de_documento.ipynb) / [Colab](https://colab.research.google.com/drive/1sFOUSjWS2h1GFRuuiFG0Gnu8Ukbc8PkP?usp=sharing)
   - [Apresentação](./5%20-%20doc2query/notebook/apresentacao_notebook_doc2query.pdf)
 
+<br>
+
 ## Aula 6. Buscadores Densos: DPR
 
 Projeto: Finetuning de um buscador denso. Treino usando dataset tiny do MS-MARCO e avaliação no TREC-COVID. Comparar resultados com busca exaustiva e aproximada.
-
-<br>
 
 - [Apresentação da leitura](./6%20-%20busca%20densa/leitura/dpr.pdf)
 
@@ -92,23 +90,24 @@ Projeto: Finetuning de um buscador denso. Treino usando dataset tiny do MS-MARCO
   - Teste com loss calculada usando produto interno de vetores normalizados (similaridade de coseno): [Jupyter notebook](./6%20-%20busca%20densa/notebook/Aula6_dense_retriever_vetor_unitarios.ipynb) / [Colab](https://colab.research.google.com/drive/1k0H9k_lW5607MwkwWlckRFtIJiaJbmpd?usp=sharing)
   - [Apresentação](./6%20-%20busca%20densa/notebook/apresentacao_notebook_dense_retriever.pdf)
 
+<br>
+
 ## Aula 7. Buscadores Esparsos: SPLADE
 
 Projeto: Implementar a fase de indexação e buscas de um modelo esparso.
 
-<br>
 
 - [Apresentação da leitura](./7%20-%20splade/leitura/splade.pdf)
 
 - Implementação: [Colab](https://colab.research.google.com/drive/1tMSYSw6gT90ua6mOqYI4t2gKWUAlqG8P?usp=sharing) / [Jupyter notebook](./7%20-%20splade/notebook/Aula7_SPLADE_refatorado.ipynb) / [Apresentação](/7%20-%20splade/notebook/apresentacao_splade.pdf)
+
+<br>
 
 ## Aula 8. InPars: Adaptação de modelos para novas tarefas
 
 Projeto: Gerar dataset para treino de modelos de buscas usando a técnica do InPars e avaliar um modelo reranqueador treinado neste dataset no TREC-COVID.
 
 A ideia é usar um LLM como gerador de queries para documentos do TREC-COVID. A partir daí, gerar exemplos negativos usando o BM25 e treinar um reranqueador para o TREC-COVID.
-
-<br>
 
 - [Apresentação da leitura](./8%20-%20inpars/leitura/inpars.pdf)
 
@@ -118,6 +117,8 @@ A ideia é usar um LLM como gerador de queries para documentos do TREC-COVID. A 
   - Caderno 2 - geração de documentos não relevantes para as queries geradas usando BM25: [Colab](https://colab.research.google.com/drive/1tbKKunyvzI0hcl1_vW7iIeKvS35QfRnn?usp=sharing) / [Jupyter notebook](./8%20-%20inpars/notebook/Aula8_parte2_geracao_doc_id_negativo.ipynb)
   - Caderno 3 - fine-tuning e testes na base TREC-COVID: [Colab](https://colab.research.google.com/drive/1EtIk67iZliPdS604FDzeK84Np2yU2pQx?usp=sharing) / [Jupyter notebook](./8%20-%20inpars/notebook/Aula8_inpars_parte3.ipynb)
   - [Apresentação](./8%20-%20inpars/notebook/apresentacao_inpars.pdf)
+
+<br>
 
 ## Aula 9. Destilação
 
@@ -146,16 +147,29 @@ Dicas:
 - Utilizar modelos de busca "SOTA" já treinados no MS MARCO como parte do pipeline, como o [SPLADE distil](https://huggingface.co/naver/splade-cocondenser-selfdistil) (esparso), [contriever](https://huggingface.co/facebook/contriever-msmarco) (denso), [Colbert-v2](https://github.com/stanford-futuredata/ColBERT) (denso), [miniLM](https://huggingface.co/cross-encoder/ms-marco-MiniLM-L-6-v2) (reranker), [monoT5-3B](https://huggingface.co/castorini/monot5-3b-msmarco) (reranker), [doc2query minus-minus](https://github.com/terrierteam/pyterrier_doc2query) (expansão de documentos + filtragem com reranqueador na etapa de indexação)
 - Variar parametros como número de documentos retornados em cada estagio. Por exemplo, BM25 retorna 1000 documentos, um modelo denso ou esparso pode reranquea-los, e passar os top 50 para o miniLM/monoT5 fazer um ranqueamento final.
 
-
 <br>
 
 - [Apresentação da leitura](./9%20-%20qualidade%20vs%20eficiencia/leitura/colbert_v2.pdf)
 
 - Implementação: [Colab](https://colab.research.google.com/drive/1Tvf3fithfbWWqdaU-SSbj2GDQXbhPVk8?usp=sharing) / [Jupyter notebook](./9%20-%20qualidade%20vs%20eficiencia/notebook/Aula9_qualidade_vs_eficiencia.ipynb) / [Apresentação](./9%20-%20qualidade%20vs%20eficiencia/notebook/apresentacao_qualidade_eficiencia.pdf)
 
+<br>
+
 ## Aula 10. Multi-document QA: Visconde
 
 Projeto:
 
+Implementar um pipeline multidoc QA: dado uma pergunta do usuário, buscamos em uma grande coleção as passagens mais relevantes e as enviamos para um sistema agregador, que irá gerar uma resposta final.
+
+- Avaliar no dataset do IIRC
+- Métrica principal: F1
+- Usar o gpt-3.5-turbo como modelo agregador. Limitar dataset de teste para 50 exemplos para economizar.
+
+Dicas:
+
+- Se inspirar no pipeline do [Visconde](https://github.com/neuralmind-ai/visconde)
+
+
 <br>
 
+- [Apresentação da leitura](./10%20-%20visconde/leitura/visconde.pdf)
