@@ -173,3 +173,5 @@ Dicas:
 <br>
 
 - [Apresentação da leitura](./10%20-%20visconde/leitura/visconde.pdf)
+
+- Implementação: [Colab](https://colab.research.google.com/drive/1XS6pAmkDA6TBxpIyC5xQeOmFHV3ayJVH?usp=sharing) / [Jupyter notebook](./10%20-%20visconde/notebook/Aula10_Visconde.ipynb) / [Apresentação](./10%20-%20visconde/notebook/apresentacao_visconde.pdf)
