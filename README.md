@@ -175,3 +175,14 @@ Dicas:
 - [Apresentação da leitura](./10%20-%20visconde/leitura/visconde.pdf)
 
 - Implementação: [Colab](https://colab.research.google.com/drive/1XS6pAmkDA6TBxpIyC5xQeOmFHV3ayJVH?usp=sharing) / [Jupyter notebook](./10%20-%20visconde/notebook/Aula10_Visconde.ipynb) / [Apresentação](./10%20-%20visconde/notebook/apresentacao_visconde.pdf)
+
+
+## Trabalho Final - Gerador de surveys
+
+### Primeira entrega:
+
+- [Apresentação](./trabalho%20final/entrega%201/apresentacao_entrega1.pptx)
+
+- [Notebook](./trabalho%20final/entrega%201/TF_gera_texto_se%C3%A7%C3%A3o_GPT3.ipynb)
+
+- [Exemplo de texto gerado](./trabalho%20final/entrega%201/texto%20gerado.pdf) sobre o assunto "Text representation for ranking" (macro-assunto  "Neural Information Retrieval"). A escolha dos assuntos foi inspirada [neste survey](https://arxiv.org/abs/2207.13443).
