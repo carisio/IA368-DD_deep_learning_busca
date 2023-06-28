@@ -12,7 +12,7 @@ Autores: Leandro Carísio Fernandes e Gustavo Bartz Guedes
 
 ### Entrega final:
 
-- [Apresentação](./entrega%20final/apresenta%C3%A7%C3%A3o/apresentacao_final.pptx.pdf)
+- [Apresentação](./entrega%20final/apresenta%C3%A7%C3%A3o/apresentacao_final.pdf)
 
 - Notebooks (importados do Colab)
 
