@@ -31,6 +31,7 @@ Autores: Leandro Carísio Fernandes e Gustavo Bartz Guedes
       - ENTRADA 1: [sections-survey-ref.pkl](./entrega%20final/survey%20de%20referencia/sections-survey-ref.pkl)
       - ENTRADA 2: [papers_contents-survey-ref_grobid.pkl](./entrega%20final/survey%20de%20referencia/papers_contents-survey-ref_grobid.pkl)
       - SAÍDA: [sections-survey-ref_generated_text_splade_gpt-3.5-turbo-0613.pkl](./entrega%20final/survey%20de%20referencia/gpt%203.5/sections-survey-ref_generated_text_splade_gpt-3.5-turbo-0613.pkl)
+      - AVALIAÇÃO COM BERTScore (Precision: 78.2%, Recall: 81.4%, F1: 79.8%): [caderno](./entrega%20final/notebooks/%5BTF%5D_%5BEval%5D_%5BSURVEY_REF%5D_com_BERTScore.ipynb)
     
     - Geração automática: [Texto gerado para um pipeline completo - 5 seções e 3 subseções por seção](./entrega%20final/pipeline%20completo%20-%20text%20neural%20information%20retrieval/sections-text%20neural%20information%20retrieval-2020-2023-gpt-3.5-turbo-0613_generated_text_specter_gpt-3.5-turbo-0613.docx)
       - ENTRADA 1: [sections-text neural information retrieval-2020-2023-gpt-3.5-turbo-0613.pkl](./entrega%20final/pipeline%20completo%20-%20text%20neural%20information%20retrieval/sections-text%20neural%20information%20retrieval-2020-2023-gpt-3.5-turbo-0613.pkl)
