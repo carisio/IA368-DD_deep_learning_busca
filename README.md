@@ -217,4 +217,4 @@ Autores: Leandro Carísio Fernandes e Gustavo Bartz Guedes
       - ENTRADA 2: [papers_contents-text neural information retrieval-2020-2023-gpt-3.5-turbo-0613.pkl](./trabalho%20final/entrega%20final/pipeline%20completo%20-%20text%20neural%20information%20retrieval/papers_contents-text%20neural%20information%20retrieval-2020-2023-gpt-3.5-turbo-0613.pkl)
       - SAÍDA: [sections-text neural information retrieval-2020-2023-gpt-3.5-turbo-0613_generated_text_specter_gpt-3.5-turbo-0613.pkl](./trabalho%20final/entrega%20final/pipeline%20completo%20-%20text%20neural%20information%20retrieval/sections-text%20neural%20information%20retrieval-2020-2023-gpt-3.5-turbo-0613_generated_text_specter_gpt-3.5-turbo-0613.pkl)
 
-- [Artigo](./trabalho%20final/entrega%20final/texto/Geracao_automatica_de_survey.pdf) (WIP: ainda falta finalizar algumas seções e revisar)
+- [Artigo](./trabalho%20final/entrega%20final/texto/Geracao_automatica_de_survey.pdf)
